@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link href="assets\css\bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!--este es el Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="Principal.html">
+    <img src="assets/image/logo.jpeg" alt="marca" width="75" class="image-fluid" />
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Botón Desplegable -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Principal.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        ALMA CHINA
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                        <!-- Puedes agregar más opciones aquí -->
+                    </ul>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quienes_somos.html">Quienes somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acerca_de.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+            
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--fin Navbar-->
+<div class="content">
+    <div class="card-body text-center">
+        <div class="p-3 text-primary-emphasis bg-secondary-subtle border border-primary-subtle rounded-3">
+            <p class="fs-5">Nace Alma China, una marca desarrollada por madres dedicadas y apasionadas, unidas por la experiencia de criar a nuestros hijos neurodiversos. En nuestro viaje, descubrimos el poder sanador de la naturaleza, lo que nos llevó a crear una línea de productos naturales que reflejan amor, cuidado y respeto por la vida.</p>
+        </div>
+    </div>
+</div>
+<!-- Carrusel -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="assets\image\im4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets\image\im7.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="assets\image\im5.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- Fin Carrusel -->
+<!-- Footer -->
+<footer class="bg-dark text-white text-center mt-auto">
+    <div class="container p-4">
+        <h5 class="text-uppercase">Síguenos</h5>
+        <div class="d-flex justify-content-center">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <img src="assets\image\facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                <img src="assets\image\twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                <img src="assets\image\instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                <img src="assets\image\linkedin.svg" alt="LinkedIn">
+            </a>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2024 Todos los derechos reservados:
+        <a class="text-white" href="https://almachinaym.com">almachinaym.com</a>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

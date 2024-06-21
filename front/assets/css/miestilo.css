@@ -1,0 +1,74 @@
+p {
+    font-size : 12pt;
+    font-family : arial,helvetica;
+    font-weight :bold;
+    text-align: center;
+    }
+   .h1 {
+    font-size : 36pt;
+    font-family: Cambria,serif;
+    text-align : center;
+    font-weight: bold;
+    font-style: italic;
+    background-color : rgb(224, 207, 228);
+    margin-bottom: 0%; 
+    }
+    h2 {
+        font-size: 16pt;
+        font-family: 'Lucida Sans', Arial;
+        text-align: center;
+        margin-top: 0%;
+    }
+    h4 {
+        font-size: 10pt;
+        font-family: 'Lucida Sans', Arial;
+        text-align: center;
+        background-color: honeydew;
+    }    
+    .div1
+    {
+        font-size : 12pt;
+        font-family : arial,helvetica;
+        font-weight :bold;
+        text-align: center; 
+    }
+ 
+        body {
+            background-color: #c8c9c7;
+            color: #77797b;
+            font-family: Arial, sans-serif;
+            padding: 10pt;
+        margin: 0pt;
+            }
+nav {
+    background-color: #c7bdc4;
+    padding: 10px;
+    }
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    }
+    nav ul li a:hover {
+    background-color: #a556a0;
+    }
+   /* Estilos para las imágenes */
+img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #ad45bd; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+    }
+  
